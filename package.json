@@ -1,0 +1,21 @@
+{
+  "name": "codebase-for-llm",
+  "version": "1.0.0",
+  "description": "**Codebase-to-Markdown** is a library that converts an entire codebase from a GitHub repository URL or local file path into a single markdown file. This file is structured for efficient processing by large language models (LLMs).",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node ./dist/index.js",
+    "cmd:gen-dna": "npm run build && node ./dist/scripts/gen-dna.js",
+    "test": "vitest --silent --coverage --testTimeout 10000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
