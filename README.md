@@ -1,6 +1,6 @@
-# Codebase-to-Markdown
+# Codebase to LLM
 
-**Codebase-to-Markdown** is a library that converts an entire codebase from a GitHub repository URL or local file path into a single markdown file. This file is structured for efficient processing by large language models (LLMs).
+**Codebase to LLM** is a library that converts an entire codebase from a GitHub repository URL or local file path into a single markdown file. This file is structured for efficient processing by large language models (LLMs).
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/AdiPat/codebase-for-llm/refs/heads/main/assets/logo_art.png" />
